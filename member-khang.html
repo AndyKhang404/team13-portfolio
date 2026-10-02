@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Phung Bao Khang — Portfolio</title><link rel="stylesheet" href="style.css" /></head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="orbs" aria-hidden="true"><i class="orb o2"></i><i class="orb o3"></i></div>
+<header class="nav"><div class="container nav-inner">
+<a href="index.html" class="logo aura">← 🌾Aura<span>Famers</span></a>
+<nav class="nav-links" id="navLinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Education</a><a href="#contact">Contact</a></nav>
+<div class="nav-actions"><button id="themeToggle" class="btn-icon">◐</button><a class="btn btn-small btn-primary" href="member-hung.html">Back to Hung →</a><button id="menuBtn" class="btn-icon menu-btn">☰</button></div>
+</div></header>
+<main>
+<section class="hero container"><div class="hero-text">
+<p class="eyebrow">Member 03 — Web · Rust · Blockchain</p><h1>PHUNG BAO KHANG</h1>
+<p class="subtitle">Software Developer · Web apps, C++ games, Python tools, blockchain products</p>
+<p class="lede">Projects-focused dev working across Rust, C++, TypeScript and Python — smart contracts, mapping APIs, local-first apps and interactive graphics.</p>
+<div class="hero-cta"><a class="btn btn-primary" href="#projects">View Projects</a><a class="btn btn-ghost" href="https://vue-openstreetmap.pages.dev/" target="_blank" rel="noopener">🌍 Live demo ↗</a></div>
+<div class="hero-social"><a href="https://github.com/AndyKhang404" target="_blank" rel="noopener">GitHub</a><a href="mailto:andykhang404@gmail.com">Email</a></div>
+</div>
+<div class="hero-card"><div class="card profile-card"><div class="avatar lg a3">BK</div><h3>Phung Bao Khang</h3><div class="tag-cloud"><span>Rust</span><span>Vue 3</span><span>React</span><span>C++17</span><span>Stellar</span><span>Leaflet</span></div><div class="stats"><div><strong>5</strong><small>Showcased</small></div><div><strong>1</strong><small>Live demo</small></div><div><strong>4</strong><small>Languages</small></div></div></div></div>
+</section>
+<section id="about" class="section container"><p class="eyebrow">About</p><h2>Profile</h2>
+<div class="grid-2"><div class="card"><p>Independently building web applications, C++ desktop games, Python algorithmic tools and blockchain-enabled products. Comfortable across the stack with recent work in contracts, maps, local-first apps and graphics.</p></div>
+<div class="card"><h3>🎓 HCMUS</h3><p>Ho Chi Minh City University of Science — degree/major TBD. Add graduation date + LinkedIn.</p></div></div></section>
+<section id="skills" class="section container"><p class="eyebrow">Skills</p><h2>Technical Skills</h2>
+<div class="tabs"><div class="tab-btns"><button class="tab-btn active" data-tab="k1">Web</button><button class="tab-btn" data-tab="k2">Systems</button><button class="tab-btn" data-tab="k3">Data</button></div>
+<div class="tab-panel active" id="k1"><div class="chips"><span>TypeScript</span><span>JavaScript</span><span>Vue 3</span><span>React</span><span>Vite</span><span>Bootstrap</span><span>HTML/CSS</span></div></div>
+<div class="tab-panel" id="k2"><div class="chips"><span>Rust</span><span>C++17</span><span>Soroban SDK</span><span>Stellar Testnet</span><span>Freighter</span><span>SDL3</span><span>CMake</span><span>Cargo</span></div></div>
+<div class="tab-panel" id="k3"><div class="chips"><span>Python/Tkinter</span><span>Leaflet/vue-leaflet</span><span>OSM/Overpass API</span><span>IndexedDB/Dexie</span></div></div></div></section>
+<section id="projects" class="section container"><p class="eyebrow">Work</p><h2>Selected Projects</h2>
+<div class="filter-bar"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="systems">Systems</button><button class="filter-btn" data-filter="algo">Algo</button></div>
+<div class="projects-grid">
+<article class="card project" data-category="systems web"><div class="proj-top"><span class="badge">Blockchain</span><span class="muted">May 2026</span></div><h3>ByteGate — Micropayment Gateway</h3><p>Pay-per-view locked behind Soroban contract, revealed after payment. Testnet demo.</p><div class="chips"><span>Rust</span><span>Stellar</span><span>JS</span></div><p><a href="https://github.com/AndyKhang404/bytegate" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="systems"><div class="proj-top"><span class="badge">Desktop Game</span><span class="muted">Mar 2026</span></div><h3>Caro — Five-in-a-row</h3><p>PvP + PvC, win-line highlight, restart + help, CMake/SDL3 build.</p><div class="chips"><span>C++17</span><span>SDL3</span></div><p><a href="https://github.com/AndyKhang404/caro" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="web"><div class="proj-top"><span class="badge">Live · Maps</span><span class="muted">Nov–Dec 2025</span></div><h3>Vue OpenStreetMap POI Finder</h3><p>Top-5 nearby POIs on interactive map via Overpass.</p><div class="chips"><span>Vue 3</span><span>Leaflet</span></div><p><a href="https://vue-openstreetmap.pages.dev/" target="_blank" rel="noopener">Live ↗</a> · <a href="https://github.com/AndyKhang404/vue-openstreetmap" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="web"><div class="proj-top"><span class="badge">Local-first</span><span class="muted">2024</span></div><h3>React Todo List</h3><p>Responsive tasks + IndexedDB/Dexie persistence, Vite build.</p><div class="chips"><span>React</span><span>TS</span><span>Dexie</span></div><p><a href="https://github.com/AndyKhang404/react-todo-list" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="algo"><div class="proj-top"><span class="badge">Algorithms</span><span class="muted">Jul 2024</span></div><h3>DLX Sudoku Solver</h3><p>Knuth Dancing Links exact-cover, CLI + Tkinter GUI.</p><div class="chips"><span>Python</span><span>Tkinter</span></div><p><a href="https://github.com/AndyKhang404/py-dlx-sudoku" target="_blank" rel="noopener">Repo ↗</a></p></article>
+</div></section>
+<section id="experience" class="section container"><p class="eyebrow">Education</p><h2>Education & Notes</h2>
+<div class="card"><p><strong>HCMUS</strong> — add degree, major, graduation month/year + LinkedIn link (placeholder in CV3).</p><p class="muted">GitHub: github.com/AndyKhang404 · Hack Club Arcade 2024 follow-up (Sudoku).</p></div></section>
+<section id="contact" class="section container"><p class="eyebrow">Contact</p><h2>Contact Bao Khang</h2>
+<div class="grid-2"><div class="card"><p><strong>Email:</strong> <a href="mailto:andykhang404@gmail.com">andykhang404@gmail.com</a></p><p><strong>GitHub:</strong> <a href="https://github.com/AndyKhang404" target="_blank" rel="noopener">AndyKhang404</a></p></div>
+<form class="card form" id="contactForm"><label>Name<input id="fName" required /></label><label>Message<textarea id="fMsg" rows="4" required></textarea></label><button class="btn btn-primary" type="submit">Open in Email App →</button></form></div></section>
+</main>
+<footer><div class="container foot-inner"><span>© <span id="year"></span> Phung Bao Khang · 🌾 <a href="index.html">AuraFamers home</a></span><a href="#top">↑ Top</a></div></footer>
+<button id="toTop">↑</button><script src="script.js"></script></body></html>

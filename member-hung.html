@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hy Hue Hung — Portfolio</title><link rel="stylesheet" href="style.css" /></head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="orbs" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i></div>
+<header class="nav"><div class="container nav-inner">
+<a href="index.html" class="logo aura">← 🌾Aura<span>Famers</span></a>
+<nav class="nav-links" id="navLinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+<div class="nav-actions"><button id="themeToggle" class="btn-icon">◐</button><a class="btn btn-small btn-primary" href="member-duc.html">Next: Duc →</a><button id="menuBtn" class="btn-icon menu-btn">☰</button></div>
+</div></header>
+<main>
+<section class="hero container"><div class="hero-text">
+<p class="eyebrow">Member 01 — AI · Algorithms · IoT</p><h1>HY HUE HUNG</h1>
+<p class="subtitle">IT Student, HCMUS · Software Development | AI & Algorithms</p>
+<p class="lede">Third-year IT student building delivery-route optimization, GrowMate AI companion and ESP32 smart parking — graph algorithms to full-stack to hardware.</p>
+<div class="hero-meta"><span>📍 HCMC, Vietnam</span><span>🎓 2024–Present</span></div>
+<div class="hero-cta"><a class="btn btn-primary" href="#projects">View Projects</a><a class="btn btn-ghost" href="mailto:hunghuehy310506@gmail.com">📧 Email</a></div>
+<div class="hero-social"><a href="https://github.com/HungHy2314" target="_blank" rel="noopener">GitHub</a><button id="copyEmail" class="link-btn">⧉ Copy email</button></div>
+</div>
+<div class="hero-card"><div class="card profile-card"><div class="avatar lg a1">HH</div><h3>Hy Hue Hung</h3><div class="tag-cloud"><span>Python</span><span>C/C++</span><span>FastAPI</span><span>React</span><span>A*</span><span>ESP32</span></div><div class="stats"><div><strong>3</strong><small>Projects</small></div><div><strong>7+</strong><small>Algorithms</small></div><div><strong>6+</strong><small>Stacks</small></div></div></div></div>
+</section>
+<section id="about" class="section container"><p class="eyebrow">About</p><h2>Profile & Education</h2>
+<div class="grid-2"><div class="card"><p>IT student at University of Science, VNU-HCM with hands-on software, AI, graph algorithms, IoT and data projects. Backend + frontend + integration + docs.</p><div class="chips"><span>Software Eng.</span><span>AI</span><span>Algorithms</span><span>Backend</span><span>Full-Stack</span><span>IoT</span></div></div>
+<div class="card"><h3>🎓 HCMUS — Bachelor of IT</h3><ul class="check-list"><li>Data Structures & Algorithms</li><li>Artificial Intelligence</li><li>Database Systems</li><li>Operating Systems</li><li>Statistics & Applied Math</li></ul></div></div></section>
+<section id="skills" class="section container"><p class="eyebrow">Skills</p><h2>Technical Skills</h2>
+<div class="tabs"><div class="tab-btns"><button class="tab-btn active" data-tab="h1">Code</button><button class="tab-btn" data-tab="h2">AI</button><button class="tab-btn" data-tab="h3">IoT/Data</button></div>
+<div class="tab-panel active" id="h1"><div class="chips"><span>C</span><span>C++</span><span>Python</span><span>JavaScript</span><span>SQL</span><span>React</span><span>Vite</span><span>FastAPI</span><span>REST</span></div></div>
+<div class="tab-panel" id="h2"><div class="chips"><span>BFS</span><span>DFS</span><span>UCS</span><span>Dijkstra</span><span>A*</span><span>IDA*</span><span>Alpha-Beta</span><span>K-Means</span><span>Knowledge Graph</span></div></div>
+<div class="tab-panel" id="h3"><div class="chips"><span>ESP32</span><span>MQTT</span><span>Mosquitto</span><span>Node-RED</span><span>Supabase</span><span>SQLite</span><span>SQL Server</span><span>OSMnx</span><span>Leaflet</span><span>GeoJSON</span></div></div></div></section>
+<section id="projects" class="section container"><p class="eyebrow">Work</p><h2>Projects</h2>
+<div class="filter-bar"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="ai">AI</button><button class="filter-btn" data-filter="iot">IoT</button></div>
+<div class="projects-grid">
+<article class="card project" data-category="ai"><div class="proj-top"><span class="badge">Graph AI</span></div><h3>HCMC Delivery Route Optimization</h3><p>Shipper multi-point routing on OSMnx graph.</p><ul><li>Nodes/edges design, BFS→IDA* + planning</li><li>FastAPI + React + Leaflet</li></ul><div class="chips"><span>Python</span><span>OSMnx</span><span>Leaflet</span></div><p><a href="https://github.com/AdrianParry-17/AILabProjects" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="ai"><div class="proj-top"><span class="badge">AI Learning</span></div><h3>GrowMate — AI Learning Companion</h3><p>Knowledge-graph tutoring, fatigue detection, question-bank on Supabase.</p><div class="chips"><span>AI</span><span>KG</span><span>Supabase</span></div><p><a href="https://github.com/noleAI" target="_blank" rel="noopener">Org ↗</a></p></article>
+<article class="card project" data-category="iot"><div class="proj-top"><span class="badge">IoT</span></div><h3>ESP32 Smart Parking</h3><p>Servo cover, DHT11/MQ-2/LM393, MQTT + Node-RED, OLED, SQLite history.</p><div class="chips"><span>ESP32</span><span>MQTT</span><span>Node-RED</span></div><p><a href="https://github.com/haolamnm/hyper-cognitive-parking" target="_blank" rel="noopener">Repo ↗</a></p></article>
+</div></section>
+<section id="experience" class="section container"><p class="eyebrow">Coursework</p><h2>Academic Experience</h2>
+<div class="accordion"><button class="acc-btn">🤖 Artificial Intelligence +</button><div class="acc-panel"><ul><li>Search: BFS/DFS/UCS/A*/IDA*</li><li>Alpha-Beta, K-Means image compression</li></ul></div>
+<button class="acc-btn">⚙️ Operating Systems +</button><div class="acc-panel"><ul><li>xv6, syscalls, paging/TLB/EMAT, FAT/MBR</li></ul></div>
+<button class="acc-btn">🗄️ Databases +</button><div class="acc-panel"><ul><li>Design, normalization, PK/FK, SQL Server/SQLite</li></ul></div></div></section>
+<section id="contact" class="section container"><p class="eyebrow">Contact</p><h2>Contact Hung</h2>
+<div class="grid-2"><div class="card"><p><strong>Email:</strong> <a href="mailto:hunghuehy310506@gmail.com">hunghuehy310506@gmail.com</a></p><p><strong>GitHub:</strong> <a href="https://github.com/HungHy2314" target="_blank" rel="noopener">HungHy2314</a></p></div>
+<form class="card form" id="contactForm"><label>Name<input id="fName" required /></label><label>Message<textarea id="fMsg" rows="4" required></textarea></label><button class="btn btn-primary" type="submit">Open in Email App →</button></form></div></section>
+</main>
+<footer><div class="container foot-inner"><span>© <span id="year"></span> Hy Hue Hung · 🌾 <a href="index.html">AuraFamers home</a></span><a href="#top">↑ Top</a></div></footer>
+<button id="toTop">↑</button><script src="script.js"></script></body></html>

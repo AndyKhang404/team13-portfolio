@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nguyen Minh Duc — Portfolio</title><link rel="stylesheet" href="style.css" /></head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="orbs" aria-hidden="true"><i class="orb o1"></i><i class="orb o3"></i></div>
+<header class="nav"><div class="container nav-inner">
+<a href="index.html" class="logo aura">← 🌾Aura<span>Famers</span></a>
+<nav class="nav-links" id="navLinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+<div class="nav-actions"><button id="themeToggle" class="btn-icon">◐</button><a class="btn btn-small btn-primary" href="member-khang.html">Next: Khang →</a><button id="menuBtn" class="btn-icon menu-btn">☰</button></div>
+</div></header>
+<main>
+<section class="hero container"><div class="hero-text">
+<p class="eyebrow">Member 02 — Backend · AI Systems</p><h1>NGUYEN MINH DUC</h1>
+<p class="subtitle">Software Engineering Student, HCMUS · Backend, System Design, AI apps</p>
+<p class="lede">Third-year SE student obsessed with clean backends and AI-assisted apps — Spring Boot + FastAPI + Gemini agents, from attendance vision systems to travel chatbots.</p>
+<div class="hero-meta"><span>🎓 HCMUS 2024–2028</span><span>🏆 Top 30 GDGoC 2026</span></div>
+<div class="hero-cta"><a class="btn btn-primary" href="#projects">View Projects</a><a class="btn btn-ghost" href="mailto:duc.061106@gmail.com">📧 Email</a></div>
+<div class="hero-social"><a href="https://github.com/JohnZ9696" target="_blank" rel="noopener">GitHub</a><button id="copyEmail" class="link-btn">⧉ Copy email</button></div>
+</div>
+<div class="hero-card"><div class="card profile-card"><div class="avatar lg a2">MD</div><h3>Minh Duc</h3><div class="tag-cloud"><span>Java/Spring</span><span>FastAPI</span><span>Supabase</span><span>Gemini</span><span>Docker</span></div><div class="stats"><div><strong>3</strong><small>Flagship</small></div><div><strong>2</strong><small>Hackathons</small></div><div><strong>5</strong><small>Team size max</small></div></div></div></div>
+</section>
+<section id="about" class="section container"><p class="eyebrow">About</p><h2>Profile & Education</h2>
+<div class="grid-2"><div class="card"><p>Software Engineering student entering third year. Passion for backend development, system design and AI-assisted applications. Improves through algorithmic challenges and real engineering projects.</p></div>
+<div class="card"><h3>🎓 University of Science - VNUHCM</h3><p>IT (Software Engineering) · 2024 — Expected 2028</p></div></div></section>
+<section id="skills" class="section container"><p class="eyebrow">Skills</p><h2>Stack</h2>
+<div class="tabs"><div class="tab-btns"><button class="tab-btn active" data-tab="d1">Backend</button><button class="tab-btn" data-tab="d2">AI</button><button class="tab-btn" data-tab="d3">Tools</button></div>
+<div class="tab-panel active" id="d1"><div class="chips"><span>C++</span><span>Python/FastAPI</span><span>Java/Spring Boot</span><span>MySQL</span><span>Supabase/Postgres</span><span>PostGIS</span><span>Redis</span><span>REST</span><span>JWT/JWKS</span></div></div>
+<div class="tab-panel" id="d2"><div class="chips"><span>Gemini API</span><span>ReAct agents</span><span>RAG/pgvector</span><span>DeepFace</span><span>OpenCV</span><span>Hugging Face</span><span>Sentence-Transformers</span></div></div>
+<div class="tab-panel" id="d3"><div class="chips"><span>Maven</span><span>Docker</span><span>Alembic</span><span>Git/GitHub</span><span>OpenCode CLI</span><span>AI Studio</span></div></div></div></section>
+<section id="projects" class="section container"><p class="eyebrow">Work</p><h2>Projects</h2>
+<div class="filter-bar"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="vision">Vision</button><button class="filter-btn" data-filter="llm">LLM</button></div>
+<div class="projects-grid">
+<article class="card project" data-category="vision"><div class="proj-top"><span class="badge">Backend & AI · Team 3</span><span class="muted">Jul–Sep 2026</span></div><h3>RFID Facial Attendance System</h3><p>Spring Boot + React + FastAPI vision + ESP32 zero-config (UDP/mDNS).</p><ul><li>RFID + FaceNet512, MediaPipe blink liveness</li><li>Transactional rules, timezone cutoffs, SSE + Recharts</li></ul><div class="chips"><span>Spring Boot</span><span>DeepFace</span><span>Supabase</span><span>ESP32</span></div><p><a href="https://github.com/JohnZ9696/attendance-system.git" target="_blank" rel="noopener">Repo ↗</a></p></article>
+<article class="card project" data-category="llm"><div class="proj-top"><span class="badge">Backend & AI · Team 4</span><span class="muted">Mar–Apr 2026</span></div><h3>GrowMate — Educational AI Platform</h3><p>FastAPI + Supabase backend, Gemini orchestration, fail-safe ReAct+RAG.</p><div class="chips"><span>FastAPI</span><span>Gemini</span><span>Redis</span><span>Docker</span></div><p><a href="https://github.com/noleAI/growmate-backend.git" target="_blank" rel="noopener">Repo ↗</a> · Top 30 GDGoC 2026</p></article>
+<article class="card project" data-category="llm"><div class="proj-top"><span class="badge">Backend & AI · Team 5</span><span class="muted">Dec 2025–Jan 2026</span></div><h3>VietSpot — Traveling Assistant</h3><p>Async SQLAlchemy 2.0 + PostGIS geo-queries + Gemini chatbot with hybrid semantic search.</p><div class="chips"><span>PostGIS</span><span>JWT</span><span>Gemini</span></div><p><a href="https://github.com/thphuc06/VietSpot_backend.git" target="_blank" rel="noopener">Repo ↗</a></p></article>
+</div></section>
+<section id="experience" class="section container"><p class="eyebrow">Highlights</p><h2>Experience</h2>
+<div class="accordion"><button class="acc-btn">🏆 Hackathon +</button><div class="acc-panel"><p>Top 30 Google Developer on Campus Vietnam Hackathon 2026 — GrowMate.</p></div>
+<button class="acc-btn">🛠️ Engineering focus +</button><div class="acc-panel"><ul><li>Async backends, migrations, auth, geo-queries</li><li>LLM orchestration with graceful degradation</li></ul></div></div></section>
+<section id="contact" class="section container"><p class="eyebrow">Contact</p><h2>Contact Duc</h2>
+<div class="grid-2"><div class="card"><p><strong>Email:</strong> <a href="mailto:duc.061106@gmail.com">duc.061106@gmail.com</a></p><p><strong>GitHub:</strong> <a href="https://github.com/JohnZ9696" target="_blank" rel="noopener">JohnZ9696</a></p></div>
+<form class="card form" id="contactForm"><label>Name<input id="fName" required /></label><label>Message<textarea id="fMsg" rows="4" required></textarea></label><button class="btn btn-primary" type="submit">Open in Email App →</button></form></div></section>
+</main>
+<footer><div class="container foot-inner"><span>© <span id="year"></span> Nguyen Minh Duc · 🌾 <a href="index.html">AuraFamers home</a></span><a href="#top">↑ Top</a></div></footer>
+<button id="toTop">↑</button><script src="script.js"></script></body></html>

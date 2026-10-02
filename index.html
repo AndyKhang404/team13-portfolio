@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuraFamers — Hung · Duc · Khang | HCMUS</title>
+  <meta name="description" content="AuraFamers — team portfolio of 3 HCMUS Software Engineering students: Hy Hue Hung, Nguyen Minh Duc, Phung Bao Khang." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="orbs" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i></div>
+<header class="nav" id="top">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo aura">🌾Aura<span>Famers</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about-team">Team</a>
+      <a href="#members">Members</a>
+      <a href="#team-projects">Team Work</a>
+      <a href="#skills-matrix">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="btn-icon" aria-label="Toggle theme">◐</button>
+      <button id="menuBtn" class="btn-icon menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <p class="eyebrow">👋 We are AuraFamers — HCMUS · Software Engineering</p>
+      <h1>We grow <span class="grad animate-grad">ideas into Software, AI & IoT</span></h1>
+      <p class="typing-line"><span id="typing"></span><span class="caret">▌</span></p>
+      <p class="lede">3 third-year IT students from University of Science, VNU-HCM. Backend systems, graph algorithms, AI platforms, blockchain gateways, maps and embedded devices — from idea to deployed demo.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#members">Meet the Team ↓</a>
+        <a class="btn btn-ghost" href="#team-projects">See Team Work</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat"><strong data-count="11">0</strong><small>Projects shipped</small></div>
+        <div class="stat"><strong data-count="3">0</strong><small>Members</small></div>
+        <div class="stat"><strong data-count="15">0</strong><small>Core techs</small></div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="card profile-card">
+        <h3>⚡ Quick jump</h3>
+        <div class="member-mini-list">
+          <a href="member-hung.html" class="mini"><span class="avatar sm a1">HH</span><span><strong>Hy Hue Hung</strong><small>AI · Algorithms · IoT</small></span><span>→</span></a>
+          <a href="member-duc.html" class="mini"><span class="avatar sm a2">MD</span><span><strong>Nguyen Minh Duc</strong><small>Backend · AI Systems</small></span><span>→</span></a>
+          <a href="member-khang.html" class="mini"><span class="avatar sm a3">BK</span><span><strong>Phung Bao Khang</strong><small>Web · Rust · Blockchain</small></span><span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>🌾 AuraFamers</span><span>· FastAPI</span><span>· Spring Boot</span><span>· React / Vue</span><span>· Gemini AI</span><span>· ESP32 / MQTT</span><span>· Stellar / Rust</span><span>· Leaflet Maps</span><span>· Supabase</span>
+      <span>🌾 AuraFamers</span><span>· FastAPI</span><span>· Spring Boot</span><span>· React / Vue</span><span>· Gemini AI</span><span>· ESP32 / MQTT</span><span>· Stellar / Rust</span><span>· Leaflet Maps</span><span>· Supabase</span>
+    </div>
+    <div class="marquee-track">
+      <span>🌾 AuraFamers</span><span>· FastAPI</span><span>· Spring Boot</span><span>· React / Vue</span><span>· Gemini AI</span><span>· ESP32 / MQTT</span><span>· Stellar / Rust</span><span>· Leaflet Maps</span><span>· Supabase</span>
+      <span>🌾 AuraFamers</span><span>· FastAPI</span><span>· Spring Boot</span><span>· React / Vue</span><span>· Gemini AI</span><span>· ESP32 / MQTT</span><span>· Stellar / Rust</span><span>· Leaflet Maps</span><span>· Supabase</span>
+    </div>
+  </div>
+
+  <!-- ABOUT TEAM -->
+  <section id="about-team" class="section container">
+    <p class="eyebrow">About the team</p>
+    <h2>Why we work together</h2>
+    <div class="grid-2">
+      <div class="card">
+        <p>We met at HCMUS (2024–2028) through AI labs, backend courses and hackathons. Hung focuses on graph search + IoT, Duc on production FastAPI/Spring backends + LLM agents, Khang on interactive web + Rust/blockchain. Together we cover the full stack: data → API → UI → device → chain.</p>
+        <div class="tabs">
+          <div class="tab-btns"><button class="tab-btn active" data-tab="t1">How we work</button><button class="tab-btn" data-tab="t2">Stack</button><button class="tab-btn" data-tab="t3">Goals</button></div>
+          <div class="tab-panel active" id="t1"><ul><li>GitHub flow, code review, docs-first</li><li>FastAPI + Supabase/Postgres as default backend</li><li>Demo-or-it-didn't-happen: live URLs + videos</li></ul></div>
+          <div class="tab-panel" id="t2"><div class="chips"><span>Python/FastAPI</span><span>Java/Spring</span><span>React/Vue</span><span>Supabase/PostGIS</span><span>Rust/Soroban</span><span>ESP32/MQTT</span><span>Gemini API</span></div></div>
+          <div class="tab-panel" id="t3"><ul><li>Internships in Backend / AI / Full-stack</li><li>Ship 2 joint products in 2026</li><li>Open-source everything we can</li></ul></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>🧭 At a glance</h3>
+        <ul class="check-list">
+          <li><strong>University:</strong> HCMUS, VNU-HCM — IT / Software Engineering</li>
+          <li><strong>Shared win:</strong> GrowMate — AI Learning Companion (built together)</li>
+          <li><strong>Hackathon:</strong> Top 30 GDGoC Vietnam 2026 (Duc + team)</li>
+          <li><strong>Live demo:</strong> Vue OpenStreetMap POI finder (Khang)</li>
+        </ul>
+        <div class="hero-cta"><input id="teamSearch" placeholder="🔍 Search team projects, e.g. face, map, sudoku..." /></div>
+        <small class="muted">Try search below in Team Work — pure JS filter.</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERS -->
+  <section id="members" class="section container">
+    <p class="eyebrow">The trio</p>
+    <h2>Members — click for full portfolio</h2>
+    <div class="members-grid">
+      <article class="card member-card">
+        <div class="avatar lg a1">HH</div>
+        <h3>Hy Hue Hung</h3><p class="muted">AI · Algorithms · IoT / Embedded</p>
+        <div class="chips"><span>Python</span><span>A*</span><span>FastAPI</span><span>ESP32</span></div>
+        <p class="small">Delivery-route optimization, GrowMate data/AI, smart parking.</p>
+        <div class="row"><a class="btn btn-primary btn-small" href="member-hung.html">Full portfolio →</a><a href="https://github.com/HungHy2314" target="_blank" rel="noopener">GitHub</a></div>
+      </article>
+      <article class="card member-card">
+        <div class="avatar lg a2">MD</div>
+        <h3>Nguyen Minh Duc</h3><p class="muted">Backend & AI Developer</p>
+        <div class="chips"><span>Spring Boot</span><span>FastAPI</span><span>Gemini</span><span>Supabase</span></div>
+        <p class="small">RFID+Face attendance, GrowMate backend, VietSpot travel AI.</p>
+        <div class="row"><a class="btn btn-primary btn-small" href="member-duc.html">Full portfolio →</a><a href="https://github.com/JohnZ9696" target="_blank" rel="noopener">GitHub</a></div>
+      </article>
+      <article class="card member-card">
+        <div class="avatar lg a3">BK</div>
+        <h3>Phung Bao Khang</h3><p class="muted">Web · Rust · Blockchain</p>
+        <div class="chips"><span>Vue 3</span><span>Rust</span><span>Stellar</span><span>C++</span></div>
+        <p class="small">ByteGate micropayments, Caro SDL3, OSM POI finder, DLX Sudoku.</p>
+        <div class="row"><a class="btn btn-primary btn-small" href="member-khang.html">Full portfolio →</a><a href="https://github.com/AndyKhang404" target="_blank" rel="noopener">GitHub</a></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TEAM PROJECTS -->
+  <section id="team-projects" class="section container">
+    <p class="eyebrow">Together + best of each</p>
+    <h2>Team Work</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="iot">IoT</button>
+      <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+    </div>
+    <div class="projects-grid" id="teamGrid">
+      <article class="card project" data-category="ai backend" data-title="growmate ai learning companion backend gemini">
+        <div class="proj-top"><span class="badge">★ Joint — all 3</span><span class="muted">Duc · Hung</span></div>
+        <h3>GrowMate — Educational AI Platform</h3>
+        <p>Knowledge-graph tutoring + Gemini ReAct agent with graceful fallback. Top 30 GDGoC 2026.</p>
+        <div class="chips"><span>FastAPI</span><span>Gemini</span><span>Supabase</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-grow">Details +</button>
+      </article>
+      <article class="card project" data-category="backend ai iot" data-title="rfid facial attendance spring deepface esp32">
+        <div class="proj-top"><span class="badge">Duc</span><span class="muted">Backend & AI</span></div>
+        <h3>RFID Facial Attendance System</h3>
+        <p>2-factor RFID + FaceNet512, blink liveness, SSE dashboard, ESP32 zero-config.</p>
+        <div class="chips"><span>Spring Boot</span><span>DeepFace</span><span>React</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-att">Details +</button>
+      </article>
+      <article class="card project" data-category="ai backend web" data-title="hcmc delivery route optimization bfs dijkstra astar">
+        <div class="proj-top"><span class="badge">Hung</span><span class="muted">Graph AI</span></div>
+        <h3>HCMC Delivery Route Optimization</h3>
+        <p>OSMnx road graph + BFS/UCS/Dijkstra/A*/IDA* multi-point planning + Leaflet UI.</p>
+        <div class="chips"><span>Python</span><span>OSMnx</span><span>Leaflet</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-route">Details +</button>
+      </article>
+      <article class="card project" data-category="blockchain web" data-title="bytegate stellar soroban micropayment">
+        <div class="proj-top"><span class="badge">Khang</span><span class="muted">Blockchain</span></div>
+        <h3>ByteGate — Micropayment Gateway</h3>
+        <p>Pay-per-view locked by Soroban contract on Stellar Testnet + Freighter.</p>
+        <div class="chips"><span>Rust</span><span>Soroban</span><span>Stellar</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-byte">Details +</button>
+      </article>
+      <article class="card project" data-category="web" data-title="vue openstreetmap poi finder leaflet">
+        <div class="proj-top"><span class="badge">Khang · Live</span><span class="muted">Web + Maps</span></div>
+        <h3>Vue OpenStreetMap POI Finder</h3>
+        <p>Find 5 nearby POIs via Overpass API. <a href="https://vue-openstreetmap.pages.dev/" target="_blank" rel="noopener">Live demo ↗</a></p>
+        <div class="chips"><span>Vue 3</span><span>Leaflet</span><span>Overpass</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-osm">Details +</button>
+      </article>
+      <article class="card project" data-category="iot" data-title="esp32 smart parking mqtt node-red">
+        <div class="proj-top"><span class="badge">Hung</span><span class="muted">IoT</span></div>
+        <h3>ESP32 Smart Parking</h3>
+        <p>Auto servo cover, DHT11/MQ-2 sensing, MQTT + Node-RED dashboard.</p>
+        <div class="chips"><span>ESP32</span><span>MQTT</span><span>Node-RED</span></div>
+        <button class="btn btn-ghost btn-small open-modal" data-modal="m-park">Details +</button>
+      </article>
+    </div>
+    <p id="noResult" class="muted" style="display:none">No projects match your search.</p>
+  </section>
+
+  <!-- SKILLS MATRIX -->
+  <section id="skills-matrix" class="section container">
+    <p class="eyebrow">Compare</p>
+    <h2>Skills Matrix</h2>
+    <div class="card table-wrap">
+      <table class="matrix">
+        <tr><th>Area</th><th>Hung</th><th>Duc</th><th>Khang</th></tr>
+        <tr><td>Languages</td><td>C/C++, Python, JS, SQL</td><td>C++, Python, Java</td><td>Rust, C++17, TS, Python</td></tr>
+        <tr><td>Backend</td><td>FastAPI, REST</td><td>Spring Boot, FastAPI, JWT, PostGIS</td><td>APIs, IndexedDB</td></tr>
+        <tr><td>AI / Data</td><td>BFS–IDA*, K-Means, KG</td><td>Gemini agents, RAG, DeepFace</td><td>DLX solver</td></tr>
+        <tr><td>Frontend</td><td>React, Leaflet</td><td>React, Recharts, SSE</td><td>Vue 3, React, Bootstrap</td></tr>
+        <tr><td>Infra</td><td>MQTT, Node-RED, ESP32</td><td>Docker, Redis, Supabase</td><td>Stellar, SDL3, Vite</td></tr>
+      </table>
+    </div>
+    <div class="accordion">
+      <button class="acc-btn">FAQ — How to navigate this site? +</button>
+      <div class="acc-panel"><p>Use top nav to jump sections. Each member card links to a full individual portfolio (<code>member-*.html</code>). All pages share theme + search + filter JS. Contact section opens your mail app — no backend needed.</p></div>
+      <button class="acc-btn">FAQ — What is the joint project? +</button>
+      <div class="acc-panel"><p><strong>GrowMate</strong> — Hung did data/question-bank + knowledge-graph design, Duc built FastAPI + Gemini orchestration. Khang's map/UI patterns were reused for visualization.</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <p class="eyebrow">Get in touch</p>
+    <h2>Contact the team</h2>
+    <div class="grid-2">
+      <div class="card">
+        <p><strong>Hung:</strong> <a href="mailto:hunghuehy310506@gmail.com">hunghuehy310506@gmail.com</a> · <a href="https://github.com/HungHy2314" target="_blank" rel="noopener">GitHub</a></p>
+        <p><strong>Duc:</strong> <a href="mailto:duc.061106@gmail.com">duc.061106@gmail.com</a> · <a href="https://github.com/JohnZ9696" target="_blank" rel="noopener">GitHub</a></p>
+        <p><strong>Khang:</strong> <a href="mailto:andykhang404@gmail.com">andykhang404@gmail.com</a> · <a href="https://github.com/AndyKhang404" target="_blank" rel="noopener">GitHub</a></p>
+        <div class="hero-cta"><button class="btn btn-ghost" id="copyEmail">⧉ Copy Hung email</button></div>
+      </div>
+      <form class="card form" id="contactForm">
+        <label>Your name<input id="fName" required placeholder="Your name" /></label>
+        <label>Message<textarea id="fMsg" rows="4" required placeholder="Hi team, ..."></textarea></label>
+        <button class="btn btn-primary" type="submit">Open in Email App →</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- MODALS -->
+<div class="modal" id="m-grow"><div class="modal-box"><button class="modal-x">✕</button><h3>GrowMate — details</h3><ul><li>Fail-safe ReAct + Gemini tool-calling + RAG (pgvector), fallback to adaptive mode</li><li>Supabase + Redis + Docker, Flutter frontend</li><li>Top 30 GDGoC Hackathon 2026</li></ul><p><a href="https://github.com/noleAI/growmate-backend.git" target="_blank" rel="noopener">Backend repo ↗</a></p></div></div>
+<div class="modal" id="m-att"><div class="modal-box"><button class="modal-x">✕</button><h3>Attendance — details</h3><ul><li>RFID + FaceNet512, MediaPipe blink liveness</li><li>Spring Boot + PostgreSQL transactions, SSE + Recharts dashboard</li></ul><p><a href="https://github.com/JohnZ9696/attendance-system.git" target="_blank" rel="noopener">Repo ↗</a></p></div></div>
+<div class="modal" id="m-route"><div class="modal-box"><button class="modal-x">✕</button><h3>Route optimization — details</h3><ul><li>OSMnx graph, BFS/DFS/UCS/Dijkstra/A*/IDA*</li><li>FastAPI + React + Leaflet</li></ul><p><a href="https://github.com/AdrianParry-17/AILabProjects" target="_blank" rel="noopener">Repo ↗</a></p></div></div>
+<div class="modal" id="m-byte"><div class="modal-box"><button class="modal-x">✕</button><h3>ByteGate — details</h3><ul><li>Soroban contract locks content, reveals after micropayment</li><li>Stellar Testnet + Freighter wallet</li></ul><p><a href="https://github.com/AndyKhang404/bytegate" target="_blank" rel="noopener">Repo ↗</a></p></div></div>
+<div class="modal" id="m-osm"><div class="modal-box"><button class="modal-x">✕</button><h3>OSM POI — details</h3><ul><li>Vue 3 + vue-leaflet + Overpass API, top-5 POIs</li></ul><p><a href="https://vue-openstreetmap.pages.dev/" target="_blank" rel="noopener">Live demo ↗</a> · <a href="https://github.com/AndyKhang404/vue-openstreetmap" target="_blank" rel="noopener">Repo ↗</a></p></div></div>
+<div class="modal" id="m-park"><div class="modal-box"><button class="modal-x">✕</button><h3>Smart parking — details</h3><ul><li>ESP32 + DHT11/MQ-2/LM393 + SG90 + OLED, MQTT/Mosquitto + Node-RED</li></ul><p><a href="https://github.com/haolamnm/hyper-cognitive-parking" target="_blank" rel="noopener">Repo ↗</a></p></div></div>
+
+<footer><div class="container foot-inner"><span>© <span id="year"></span> 🌾 AuraFamers · Hung · Duc · Khang — HTML/CSS/JS only</span><span><a href="member-hung.html">Hung</a> · <a href="member-duc.html">Duc</a> · <a href="member-khang.html">Khang</a> · <a href="#top">↑ Top</a></span></div></footer>
+<button id="toTop" title="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
