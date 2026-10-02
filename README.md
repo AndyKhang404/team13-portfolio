@@ -15,8 +15,10 @@ Or if you prefer Docker:
 ```sh
 docker build -t team13-portfolio-img:1.0 .
 # Replace 3000 below with your preferred port
-docker run -d --name team13-portfolio -p 3000:8080 team13-portfolio-img 
+docker run -d --name team13-portfolio -p 3000:8080 team13-portfolio-img:1.0
 ```
 
 ## Public hosting
-TBD
+We've published a [live demo](https://team13-portfolio.onrender.com) of our portfolio on Render.
+
+If the link above doesn't work you can also try [this](https://team13-portfolio.andykhang404.workers.dev), which is hosted on Cloudflare
