@@ -1,0 +1,19 @@
+# Version control
+.git
+.gitignore
+
+# Documentation and evidence
+evidence/
+README.md
+*.md
+
+# Docker configuration
+Dockerfile*
+.dockerignore
+
+# OS and IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
